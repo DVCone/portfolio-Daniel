@@ -34,3 +34,23 @@ body {
 blockquote {
     color: #f6f6f6;
 }
+
+#header {
+    color: white;
+    margin-top: 140px;
+    padding-bottom: 140px;
+}
+#header h2 {
+    font-family: 'Leckerli One', cursive;    
+}
+#header h1 {
+    font-family: 'Montserrat', sans-serif;    
+}
+#header p {
+    font-family: 'Coustard', serif;    
+    color: gray;
+}
+.btn-primary {
+    color: white;
+    border: none;
+}
