@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
 	background-size: cover;
 }
+
 .navbar-light .navbar-nav .active>.nav-link {
     color: #131111;
     margin-right: 15px;
@@ -24,10 +25,11 @@ body {
 }
 .btn-outline-success:hover {
     background-color: #FFFF00;
-    border-color: #131111;
+    border-color: #FFFF00;
     color: #131111;
 }
 .btn-outline-success {
+    box-shadow: 1px 3px 6px #FFFF00;    
     border-color: #FFFF00;
     color: #FFFF00;
 }
@@ -35,18 +37,21 @@ blockquote {
     color: #f6f6f6;
 }
 
-#header {
+header {
     color: white;
     margin-top: 140px;
     padding-bottom: 140px;
 }
-#header h2 {
-    font-family: 'Leckerli One', cursive;    
+header h2 {
+    font-family: 'Leckerli One', cursive; 
+    margin-bottom: 20px;   
 }
-#header h1 {
-    font-family: 'Montserrat', sans-serif;    
+header h1 {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;    
 }
-#header p {
+header p {
     font-family: 'Coustard', serif;    
     color: gray;
 }
@@ -54,3 +59,7 @@ blockquote {
     color: white;
     border: none;
 }
+
+
+
+
