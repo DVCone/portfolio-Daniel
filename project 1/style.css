@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Cambay|Coustard|Leckerli+One|Montserrat:400,500');
+
+body {
+    font-family: 'Cambay', sans-serif;    
+}
+
+.jombotron {
+    background-image: url("images/bg-header.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #131111;
+    margin-right: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#f6f6f6;
+    margin-right: 15px;
+}
+
+
+.btn {
+    border-radius: 1.25em;
+}
+.btn-outline-success:hover {
+    background-color: #FFFF00;
+    border-color: #131111;
+    color: #131111;
+}
+.btn-outline-success {
+    border-color: #FFFF00;
+    color: #FFFF00;
+}
+blockquote {
+    color: #f6f6f6;
+}
