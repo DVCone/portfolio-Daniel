@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cambay|Coustard|Leckerli+One|Montserrat:400,500');
+@import url('https://fonts.googleapis.com/css?family=Cambay|Coustard|Leckerli+One|Montserrat:300,400');
 
 body {
     font-family: 'Cambay', sans-serif;    
@@ -58,6 +58,8 @@ h1 {
     margin-bottom: 10px;    
 }
 h3 {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;    
     color: white;
 }
 header p {
