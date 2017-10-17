@@ -6,8 +6,10 @@ body {
 
 .jumbotron-header {
     background-image: url("images/bg-header.jpg");
-    background-repeat: no-repeat;
-	background-size: cover;
+    background-size: 1330px;
+    background-position: 165px -45px;
+    min-height: 800%;
+	height: 100%;
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
