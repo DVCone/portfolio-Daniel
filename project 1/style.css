@@ -28,12 +28,12 @@ body {
 .btn {
     border-radius: 1.25em;
 }
-.btn-outline-success:hover {
+.btn-outline-warning:hover {
     background-color: #FFFF00;
     border-color: #FFFF00;
     color: #131111;
 }
-.btn-outline-success {
+.btn-outline-warning {
     box-shadow: 1px 3px 6px #FFFF00;    
     border-color: #FFFF00;
     color: #FFFF00;
@@ -43,18 +43,22 @@ blockquote {
 }
 
 header {
-    color: white;
     margin-top: 140px;
     padding-bottom: 140px;
 }
-header h2 {
+ h2 {
+     color: white;
     font-family: 'Leckerli One', cursive; 
     margin-bottom: 20px;   
 }
-header h1 {
-    font-weight: 400;
+h1 {
+    color: white;
+    font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;    
+}
+h3 {
+    color: white;
 }
 header p {
     color: gray;
@@ -64,6 +68,25 @@ header p {
     border: none;
 }
 
-
-
-
+.jumbotron-intro {
+    background-color: #0081FF;
+}
+.about {
+    padding: 25px 0;
+}
+.about p {
+    color: white;
+}
+.media img {
+    width: 60px;
+    
+}
+.media-body {
+    color: white;
+    font-size: 15px;
+    
+}
+.icon {
+    background-color: #007af3;
+    padding: 20px 0;
+}
