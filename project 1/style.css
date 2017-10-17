@@ -11,6 +11,9 @@ body {
     min-height: 800%;
 	height: 100%;
 }
+.jumbotron-blur {
+    background-color: rgba(52, 58, 64, 0.5)
+}
 
 .navbar-light .navbar-nav .active>.nav-link {
     color: #131111;
