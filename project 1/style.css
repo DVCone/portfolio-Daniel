@@ -4,7 +4,7 @@ body {
     font-family: 'Cambay', sans-serif;    
 }
 
-.jombotron {
+.jumbotron-header {
     background-image: url("images/bg-header.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
