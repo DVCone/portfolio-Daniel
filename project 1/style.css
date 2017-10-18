@@ -1,9 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Cambay|Coustard|Leckerli+One|Montserrat:300,400');
+@import url('https://fonts.googleapis.com/css?family=Cambay|Coustard|Leckerli+One|Montserrat:300,400,700,800');
 
 body {
     font-family: 'Cambay', sans-serif;    
 }
+.btn {
+    border-radius: 1.25em;
+}
+.icon {
+    background-color: #007af3;
+    padding: 20px 0;
+}
+h1 {
+    color: white;
+    font-weight: 800;
+    font-family: 'Coustard', serif;
+    margin-bottom: 10px;    
+}
+h2 {
+    color: white;
+    font-family: 'Leckerli One', cursive; 
+    margin-bottom: 10px;   
+}
+h3 {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;    
+    color: white;
+}
 
+/* nav-bar */
 .jumbotron-header {
     background-image: url("images/bg-header.jpg");
     background-size: 1330px;
@@ -12,7 +36,7 @@ body {
 	height: 100%;
 }
 .jumbotron-blur {
-    background-color: rgba(52, 58, 64, 0.5)
+    background-color: rgba(52, 58, 64, 0.5);
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
@@ -23,44 +47,25 @@ body {
     color:#f6f6f6;
     margin-right: 15px;
 }
-
-
-.btn {
-    border-radius: 1.25em;
-}
 .btn-outline-warning:hover {
     background-color: #FFFF00;
     border-color: #FFFF00;
     color: #131111;
 }
 .btn-outline-warning {
-    box-shadow: 1px 3px 6px #FFFF00;    
+    box-shadow: 0px 5px 40px -12px #FFFF00;  
     border-color: #FFFF00;
     color: #FFFF00;
 }
-blockquote {
-    color: #f6f6f6;
-}
-
+/* header */
 header {
     margin-top: 140px;
     padding-bottom: 140px;
 }
- h2 {
-     color: white;
-    font-family: 'Leckerli One', cursive; 
-    margin-bottom: 20px;   
-}
-h1 {
-    color: white;
-    font-weight: 800;
+ 
+h1.hheader{
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 10px;    
-}
-h3 {
-    font-size: 26px;
-    font-family: 'Montserrat', sans-serif;    
-    color: white;
+    font-weight: 800;        
 }
 header p {
     color: gray;
@@ -70,6 +75,8 @@ header p {
     border: none;
 }
 
+/* about me */
+/* intro */
 .jumbotron-intro {
     background-color: #0081FF;
 }
@@ -79,6 +86,10 @@ header p {
 }
 .about p {
     font-size: 19px;
+}
+h1.intro {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
 }
 p.assa {
     color: white;
@@ -93,10 +104,11 @@ p.assa {
     font-size: 15px;
     
 }
-.icon {
-    background-color: #007af3;
-    padding: 20px 0;
+.media-body h5 {
+    font-weight: 800;
 }
+
+/* icon */
 .contact {
     padding-bottom: 60px;
     
@@ -118,3 +130,13 @@ p.assa {
 .social a:hover {
     color: white;
 }
+
+
+/* h2.portfolio {
+    color: rgba(52, 58, 64, 0.5);
+}
+h1.portfolio {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+} */
