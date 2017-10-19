@@ -82,7 +82,7 @@ header p {
 }
 .about {
     color: white;    
-    padding: 90px 0 20px;
+    padding: 90px 0 45px;
 }
 .about p {
     font-size: 19px;
@@ -139,6 +139,7 @@ p.assa {
 }
 
  h2.portfolio {
+    padding-bottom: 20px;
     color: rgba(52, 58, 64, 0.5);
 }
 h1.portfolio {
@@ -157,7 +158,7 @@ h1.portfolio {
 /*  */
 
 .container-fluid {
-    margin-top: 40px;
+    margin-top: 55px;
 }
 .col img.img-fluid {
     width: 100%;
