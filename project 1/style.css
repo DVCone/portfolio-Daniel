@@ -41,7 +41,9 @@ h3 {
 .jumbotron-blur {
     background-color: rgba(52, 58, 64, 0.5);
 }
-
+a.navbar-brand img {
+    height: 60px;
+}
 .navbar-light .navbar-nav .active>.nav-link {
     color: #131111;
     margin-right: 15px;
@@ -169,6 +171,95 @@ h1.portfolio {
     width: 100%;
     height: 100%;
 }
+#image1 {
+    padding: 0px;
+}
+#image2 {
+    height:630px;
+    object-fit:cover;
+}
+#image4 {
+    height:60%;
+    width:100%;
+    object-fit: cover;
+}
+#image6 {
+    height:40%;
+    width:100%;
+}
 
+/*  */
+/* .image-galery {
+    position: relative;
+}
+.image-galery:hover .image-3 {
+    opacity: 0.3;
+}
+.hover-galery {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.text {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-size: 16px;
+    height: 235px;
+    width: 300px;
+    padding: 80px 0;
+}
+.text-1 {
+    color: #727070;
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+.text-2 {
+    color: white;
+    font-size: 15px;
+}
+.like-me {
+    display: inline;
+    text-align: center;
+    padding: 0;
+}
+.like-me li {
+    display: inline;
+    color: white;
+}
+.like-me li a img {
+    height: 20px;
+    padding: 0 8px;
+} */
 
+/*  */
 
+.client {
+    background-image: url("images/bg-client.jpg");
+    background-size: 1330px;
+    min-height: 800%;
+	height: 100%;
+}
+.header-client {
+    padding-top: 100PX;
+    text-align: center;
+}
+.slide {
+    padding: 20px 0;
+}
+h3.slide {
+    text-align: center;
+    font-size: 17px;
+}
+.icon-client {
+    padding: 50px 0;
+}
+.icon-client img {
+    height: 135px;
+    margin-right: 55px;  
+    
+}
