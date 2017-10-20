@@ -183,6 +183,7 @@ h1.portfolio {
     height:60%;
     width:100%;
     object-fit: cover;
+    overflow: hidden
 }
 #image6 {
     height:40%;
