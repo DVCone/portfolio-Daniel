@@ -145,8 +145,7 @@ p.assa {
 .social a:hover {
     color: white;
 }
-
- h2.portfolio {
+h2.portfolio {
     padding-bottom: 20px;
     color: rgba(52, 58, 64, 0.5);
 }
@@ -189,7 +188,7 @@ h1.portfolio {
     height:40%;
     width:100%;
 }
-/*  */
+/* client */
 .client {
     background-image: url("images/bg-client.jpg");
     background-size: 1330px;
@@ -269,7 +268,7 @@ h3.slide {
       font-size: 12px;
       margin-bottom: 1rem;
   }
-  /*  */
+  /* blog */
 .con-con {
     margin: 55px 0;
 }
@@ -357,7 +356,7 @@ h3.slide {
 .box-5 h1 {
     font-size: 17px;
 }
- p.kuy {
+p.kuy {
     color: gray;
     font-size: 15px;
     margin: 0px;
@@ -396,7 +395,7 @@ h3.slide {
 #box-5 {
     padding: 6px 22px;
 }
-/*  */
+/* footer */
 .contact-us {
     color: white;
     background-image: url("images/bg-contact.jpg");
@@ -448,6 +447,3 @@ button.btn-foo {
 p.kuy2 {
     margin-left: 250px;
 }
-
-
-
