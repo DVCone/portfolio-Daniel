@@ -1,2 +1,2 @@
-# project-1
-apa aja lah
+# Portfolio-Daniel
+A web responsive design portfolio by daniel
